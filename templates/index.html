@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Florida Invasive Bird Detector</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="/static/assets/img/aicamplogo.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="/static/css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a  href="#page-top"><img src="/static/assets/img/aicamplogo.png" alt="..." width="70" height="70"/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#services">What are Invasive Species?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Florida's Invasive Bird Species</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Our Journey</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Meet the Team</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Welcome To Our Project!</div>
+                <div class="masthead-heading text-uppercase">Detecting Invasive Bird Species in Florida</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Let's Get Started</a>
+            </div>
+        </header>
+        <!-- classifier -->
+        <section class="page-section bg-light" id="Classifier">
+        <!-- <form action="/action_page.php">
+            <input type="file" name="file" id="file" hidden="" accept=".jpg,.jpeg,.gif,.png" multiple="">
+          <input type="submit">
+        </form> -->
+          <div class="mb-3">
+  <label for="formFile" class="form-label">Default file input example</label>
+  <input class="form-control" type="file" id="formFile">
+</div>
+        </section>
+        
+      <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">What are Invasive Species?</h2>
+                    <p class="text-muted">An invasive species is a non-native organism that is introduced to an ecosystem and causes harm to the environment, economy, or human health. They outcompete native species, disrupt ecological processes, and harm biodiversity. Invasive species can be plants, animals, or microorganisms, and are often introduced through human activities. Once established, they rapidly multiply, spread, and negatively impact natural habitats. Prevention, early detection, and control efforts are important to protect native ecosystems and preserve biodiversity.</p>
+                </div>
+                <!--
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">E-Commerce</h4>
+                        <p class="text-muted">"We came together for our first basic project"</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Responsive Design</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Web Security</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    </div>
+                </div>-->
+            </div>
+        </section>
+
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Florida's Invasive Bird Species</h2>
+                    <h3 class="section-subheading text-muted">Click on them to learn more!</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="static/assets/img/portfolio/birds/European Starling (Sturnus Vulgaris).jpg" alt="European Starling picture" style="object-fit: cover;" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">European Starling</div>
+                                <div class="portfolio-caption-subheading text-muted">Sturnus Vulgaris</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                      <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="static/assets/img/portfolio/birds/House Sparrow (Passer Domesticus).jpg" alt="House Sparrow picture" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">House Sparrow</div>
+                                <div class="portfolio-caption-subheading text-muted">Passer Domesticus</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="static/assets/img/portfolio/birds/Feral Pigeon (Columba Livia Domestica).jpg" alt="Feral Pigeon picture" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Feral Pigeon</div>
+                                <div class="portfolio-caption-subheading text-muted">Columba Livia Domestica</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="static/assets/img/portfolio/birds/Red-Whiskered Bulbul (Pycnonotus Jocosus).jpg" alt="Red-Whiskered Bulbul picture" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Red-Whiskered Bulbul</div>
+                                <div class="portfolio-caption-subheading text-muted">Pycnonotus Jocosus</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="static/assets/img/portfolio/birds/Indian Peacock (Pavo Cristatus).jpg" alt="Indian Peacock picture" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Indian Peacock</div>
+                                <div class="portfolio-caption-subheading text-muted">Pavo Cristatus</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="static/assets/img/portfolio/birds/Muscovy Duck (Cairina Moschata).jpg" alt="Muscovy Duck picture" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Muscovy Duck</div>
+                                <div class="portfolio-caption-subheading text-muted">Cairina Moschata</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Our Journey</h2>
+                    <h3 class="section-subheading text-muted">We decided to classify invasive birds because it would be a hard task</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-about" src="/static/assets/img/about/1.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>June 12th-16th</h4>
+                                <h4 class="subheading">Our Humble Beginnings</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">We had just started at the new Coding camp, and we were getting into the basics of Machine Learning and Python. We learned all the basics to help us get started with our project like using platforms such as SerpAPI, image scrappers, and Roboflow to find images, label them, and put them all into classes. This was also the time when we finally decided to create a project on detecting and classifying invasive bird species in Florida.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-about" src="/static/assets/img/about/2.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>June 19-23</h4>
+                                <h4 class="subheading">The Project is Born</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">The second week, we started to finalize all of our labeled data. Then we started to train the model in Google Colab and transfer it to Huggingface.  After testing our model, we encountered a problem that resulted in us having to create a second model that identifies whether the image contains a bird. The process of creating the second model is relatively the same as how we created the first model. By the end of the week, we have successfully created two working AI models.</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-about" src="/static/assets/img/about/3.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>June 26th-30th</h4>
+                                <h4 class="subheading">Transition to Full Deployment</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">On our third and final week, we began to create this website as a way to publicize and share what we had created.  We used HTML, CSS, and Bootstrap to assist in the creation of this magnificent website.</p></div>
+                        </div>
+                    
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Be Part
+                                <br />
+                                Of Our
+                                <br />
+                                Story!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Team-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">The Diamond Dragons</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="static/assets/img/People/1000001126.JPEG" alt="..." />
+                            <h4>Brenden Domsalla</h4>
+                            <p class="text-muted">Professional Smart Person</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="static/assets/img/People/Samrita.JPG" alt="..." />
+                            <h4>Samrita Shetty</h4>
+                            <p class="text-muted">Lead Marketer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="static/assets/img/People/Image20230626123720.png" alt="..." />
+                            <h4>Sarah Gage</h4>
+                            <p class="text-muted">Lead Developer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                        <div class="col-lg-4">
+                          <div class="team-member">
+                              <img class="mx-auto rounded-circle" src="static/assets/img/People/natan.jpg" alt="..." />
+                              <h4>Natan Segal</h4>
+                              <p class="text-muted">Lead coder</p>
+                              <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
+                              <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                              <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="team-member">
+                              <img class="mx-auto rounded-circle" src="static/assets/img/People/Janice.jpg" alt="..." />
+                              <h4>Janice Lin</h4>
+                              <p class="text-muted">Lead coder</p>
+                              <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
+                              <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                              <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="team-member">
+                              <img class="mx-auto rounded-circle" src="static/assets/img/People/TODO.jpg" alt="..." />
+                              <h4>Beatriz Espinoza</h4>
+                              <p class="text-muted">Lead Coder</p>
+                              <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
+                              <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                              <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                          </div>
+                        </div>
+                </div>
+                <center>
+                  <div class="col-lg-4" >
+                          <div class="team-member">
+                              <img class="mx-auto rounded-circle" src="static/assets/img/People/Zhong.jpg" alt="..." />
+                              <h4>Zhong Zheng</h4>
+                              <p class="text-muted">Mentor</p>
+                              <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
+                              <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                              <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                          </div>
+                  </div>
+                  </center>
+
+            </div>
+        </section>
+        <!-- Clients-->
+        <!-- <div class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/static/assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/static/assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/static/assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="/static/assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Contact-->
+        <!-- <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div> -->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- https://startbootstrap.com/solution/contact-forms-->
+                <!-- to get an API token!-->
+                <!-- <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <!-- <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <div class="form-group"> -->
+                                <!-- Email address input-->
+                                <!-- <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <div class="form-group mb-md-0"> -->
+                                <!-- Phone number input-->
+                                <!-- <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0"> -->
+                                <!-- Message input-->
+                                <!-- <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <!-- <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>
+                            To activate this form, sign up at
+                            <br />
+                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        </div>
+                    </div> -->
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <!-- <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div> -->
+                    <!-- Submit Button-->
+                    <!-- <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                </form>
+            </div>
+        </section> -->
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
+                    <!-- <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div> -->
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="/static/assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">European Starling</h2>
+                                    <p class="item-intro text-muted">Sturnus vulgaris</p>
+                                    <img class="img-portfolio-modal-popup" src="static/assets/img/portfolio/birds/European Starling (Sturnus Vulgaris).jpg" alt="European Starling picture" />
+                                    <p style="text-align: justify;">The European starling (Sturnus vulgaris) is a medium-sized songbird belonging to the family Sturnidae.<br>
+<strong>Appearance:</strong> European starlings have a compact and stocky body, measuring around 20 centimeters (8 inches) in length. They have a short tail and a pointed, yellow bill. In their breeding plumage, adults have glossy black feathers with iridescent green and purple tones. During the winter months, their plumage becomes speckled with white spots. Their legs are pinkish or reddish in color. Juvenile starlings have duller plumage and lack the distinctive iridescence of adults.<br>
+<strong>Behavior:</strong> European starlings are highly gregarious birds that often form large flocks, particularly during the non-breeding season. They are known for their aerial acrobatics, flying in tight formations and performing synchronized, swirling patterns known as murmurations. Starlings are excellent mimics and can imitate various sounds and calls, including human speech. They are omnivorous, feeding on a wide range of foods, including insects, fruits, berries, seeds, and scraps of human food.<br>
+<strong>Distribution and Native Range:</strong> The European starling is native to Europe, western Asia, and northern Africa. However, it has been introduced to various parts of the world, including North America, South America, Australia, and New Zealand. The introduction of starlings was intentional in some cases, while in others, they were introduced to control insect pests or for ornamental purposes. European starlings are adaptable birds and can thrive in a variety of habitats, including urban areas, farmlands, woodlands, and open grasslands.
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Return
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="/static/assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">House Sparrow</h2>
+                                    <p class="item-intro text-muted">Passer Domesticus</p>
+                                    <img class="img-portfolio-modal-popup" src="static/assets/img/portfolio/birds/House Sparrow (Passer Domesticus).jpg" alt="House Sparrow picture"/>
+                                    <p style="text-align: justify;">The house sparrow (Passer domesticus) is a small bird belonging to the family Passeridae. It is also known simply as the sparrow or English sparrow.<br>
+<strong>Appearance:</strong> House sparrows have a compact body measuring around 14 to 16 centimeters (5.5 to 6.3 inches) in length. They have a stout build with rounded wings and a short, thick bill. Males and females have different plumage. Adult males typically have a gray crown, black throat, and white cheeks, along with a chestnut-brown back and wings. Their underparts are pale gray. Females and juveniles are duller in coloration, with streaked brown plumage and a pale supercilium (eyebrow stripe).<br>
+<strong>Behavior:</strong> House sparrows are highly social birds that often gather in large flocks. They are opportunistic feeders, consuming a variety of seeds, grains, insects, and scraps of food. They are adaptable and can thrive in urban, suburban, and rural environments. House sparrows are known for their chirping and chattering vocalizations, which are often heard as they communicate with each other.<br>
+<strong>Distribution and Native Range:</strong> The house sparrow is not native to North America. It is believed to have originated in the Middle East, specifically in the region spanning from Iraq to Iran. However, it has been widely introduced and naturalized throughout the world, including North America, Europe, Asia, Africa, and various oceanic islands. The spread of house sparrows has been facilitated by human activities, such as the provision of food and nest sites in urban areas.
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Return
+                                    </button>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="/static/assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                     <!-- Project details-->
+                                    <h2 class="text-uppercase">Feral Pigeon</h2>
+                                    <p class="item-intro text-muted">Columba Livia Domestica</p>
+                                    <img class="img-portfolio-modal-popup" src="static/assets/img/portfolio/birds/Feral Pigeon (Columba Livia Domestica).jpg" alt="Feral Pigeon picture" />
+                                    <p style="text-align: justify;">The feral pigeon, also known as the rock pigeon or city pigeon, is a bird that belongs to the Columbidae family.<br>
+<strong>Appearance:</strong> Feral pigeons vary in coloration, but most have a grayish body with a lighter underside. They have a small head, short neck, and a plump body. The wings are broad and rounded, allowing for agile flight. Feral pigeons have a distinct iridescent patch on their necks, which can display various shades of green, purple, or bronze. Their eyes have a reddish hue, and they possess a strong beak.<br>
+<strong>Behavior:</strong> Feral pigeons are highly adaptable and are commonly found in urban and suburban areas around the world. They are social birds that often form large flocks. Pigeons are known for their cooing calls and are capable of various vocalizations. They are excellent flyers and can maneuver through cities and buildings with ease. Pigeons are primarily ground feeders, consuming a wide variety of grains, seeds, and scraps of food.<br>
+<strong>Distribution and Native Range:</strong> The feral pigeon is not a distinct species but rather a domesticated form of the rock pigeon (Columba livia). Rock pigeons are native to Europe, North Africa, and southwestern Asia. However, through domestication and subsequent escapes or releases, feral pigeon populations can now be found worldwide. They are especially abundant in urban environments, where they have adapted to nesting on buildings, bridges, and other structures.
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Return
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="/static/assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                     <!-- Project details-->
+                                    <h2 class="text-uppercase">Red-Whiskered Bulbul</h2>
+                                    <p class="item-intro text-muted">Pycnonotus Jocosus</p>
+                                    <img class="img-portfolio-modal-popup" src="static/assets/img/portfolio/birds/Red-Whiskered Bulbul (Pycnonotus Jocosus).jpg" alt="Red-Whiskered Bulbul picture" />
+                                    <p style="text-align: justify;">The Red-whiskered bulbul (Pycnonotus jocosus) is a medium-sized songbird belonging to the family Pycnonotidae.<br>
+<strong>Appearance:</strong> Red-whiskered bulbuls have a slender body, measuring about 20 centimeters (8 inches) in length. They have a distinctive appearance with a black crest on their head, which is often raised when they are excited or alarmed. The upperparts of their body are olive-green, while their underparts are off-white or pale yellow. One of their most notable features is the red patch of feathers on the side of their face, extending from the base of the bill to behind the eye. They also have a thin black line extending from the eye to the back of the head.<br>
+<strong>Behavior:</strong> Red-whiskered bulbuls are active and agile birds, often seen hopping and flitting between branches in trees. They are known for their melodious songs, consisting of a variety of rich and varied notes, including whistles, trills, and warbles. They are omnivorous and feed on a diverse diet, including fruits, berries, nectar, insects, and small invertebrates.<br>
+<strong>Distribution and Native Range:</strong> The Red-whiskered bulbul is native to southern Asia. Its natural range extends from India and Sri Lanka through Southeast Asia, including Myanmar, Thailand, Vietnam, and Indonesia. It has also been introduced to other parts of the world, including Australia, Fiji, Mauritius, and Hawaii. Red-whiskered bulbuls are adaptable birds that thrive in a variety of habitats, including gardens, parks, forests, and agricultural areas.
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Return
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="/static/assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Indian Peacock</h2>
+                                    <p class="item-intro text-muted">Pavo Cristatus</p>
+                                    <img class="img-portfolio-modal-popup" src="static/assets/img/portfolio/birds/Indian Peacock (Pavo Cristatus).jpg" alt="Indian Peacock picture" style="object-fit: cover;"/>
+                                    <p style="text-align:justify;">The Indian peacock, also known as the Indian peafowl, is a large and colorful bird belonging to the Phasianidae family.<br>
+<strong>Appearance:</strong> The male Indian peacock is renowned for its extravagant plumage. It has a long and elegant train consisting of elongated, brilliantly colored feathers. These feathers are iridescent, displaying shimmering shades of blue, green, and gold. The train feathers have intricate eye-spots at the tips, which are known as "ocelli." The peacock's body is compact and covered in dark blue feathers. Its head is adorned with a crest of feathers that can be raised and lowered. The female Indian peafowl, known as a peahen, has a more subdued appearance. It has a brownish overall coloration with some hints of green and lacks the ornate train.<br>
+<strong>Behavior:</strong> Indian peafowls are primarily ground-dwelling birds. The males use their beautiful trains for courtship displays. During mating season, the males fan out their trains and perform elaborate dances, accompanied by vocalizations and shaking of the feathers. These displays are intended to attract the attention of females. Peafowls are omnivorous and feed on a variety of foods, including grains, fruits, insects, and small reptiles. They are typically found in forested areas, agricultural lands, and open grasslands.<br>
+<strong>Distribution and Native Range:</strong> The Indian peacock is native to the Indian subcontinent, including India, Sri Lanka, Nepal, Bhutan, and Bangladesh. It is also the national bird of India. However, due to their captivating beauty, Indian peafowls have been introduced to various parts of the world, including Europe, North America, and Australia. In some regions, they have established feral populations.
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Return
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="/static/assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Muscovy Duck</h2>
+                                    <p class="item-intro text-muted">Cairina Moschata</p>
+                                    <img class="img-portfolio-modal-popup" src="static/assets/img/portfolio/birds/Muscovy Duck (Cairina Moschata).jpg" alt="Muscovy Duck picture" />
+                                    <p style="text-align:justify;">The Muscovy duck (Cairina moschata) is a large waterfowl species belonging to the family Anatidae.<br>
+<strong>Appearance:</strong> Muscovy ducks are relatively large ducks, with males typically weighing between 3.5 to 6 kilograms (7.7 to 13.2 pounds) and females weighing slightly less. They have a distinctive appearance with a long, slender body and a flat, wide bill. Males are larger than females and have more pronounced caruncles, which are fleshy, red, and wart-like growths on their face and neck. Muscovy ducks exhibit significant sexual dimorphism. Males have a blackish plumage with iridescent green or purple gloss, while females have a mottled brownish-black coloration with white patches on the wings.<br>
+<strong>Behavior:</strong> Muscovy ducks are generally less social compared to other duck species and often form small family groups. They are excellent swimmers and have sharp claws on their webbed feet, which enable them to perch in trees. They are adaptable birds, found in a range of habitats, including lakes, ponds, rivers, and wetlands. Muscovy ducks are known to be highly territorial and may aggressively defend their nesting sites.<br>
+<strong>Distribution and Native Range:</strong> The Muscovy duck is native to parts of Central and South America, including Mexico, Central America, and northern South America. However, they have been domesticated and introduced to various parts of the world, including North America, Europe, and Asia. In some regions, Muscovy ducks have established feral populations. They are particularly common in urban and suburban areas with access to water bodies.
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Return
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="/static/js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
